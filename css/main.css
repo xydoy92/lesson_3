@@ -1,34 +1,37 @@
-* {margin: 0;}
+* {
+    margin: 0;
+}
 
 .container {
     box-sizing: border-box;
     width: 100%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 36px;
+    font-family: 'Raleway', sans-serif;
 }
 /*--header--later--*/
 /*--main--*/
-main {padding-top: 106px;
+main {
+    padding-top: 106px;
 }
 
 .line {
-    margin: 29px auto 0;
     width: 64px;
+    margin: 29px auto 0;
     border: 1px solid #ffffff;
 }
 
 .grayfont {
     padding-top: 29px;
+    font-weight: 400;
     font-size: 14px;
     color: #86878b;
-    font-weight: 400;
 }
 
 .reasonswhy {
@@ -42,21 +45,32 @@ main {padding-top: 106px;
     width: 70px;
     height: 70px;
     margin: 0 auto;
+    background: no-repeat center;
     border: 2px solid;
     border-radius: 50%;
-    background: no-repeat center;
 }
-.icon--lamp {background-image: url(../img/lamp.png);}
-.icon--keyboard {background-image: url(../img/keyboard.png);}
-.icon--lightning {background-image: url(../img/lightning.png);}
 
-.orange {border-color: #ff8c2c;}
+.icon--lamp {
+    background-image: url(../img/lamp.png);
+}
+
+.icon--keyboard {
+    background-image: url(../img/keyboard.png);
+}
+
+.icon--lightning {
+    background-image: url(../img/lightning.png);
+}
+
+.orange {
+    border-color: #ff8c2c;
+}
 
 h3 {
     padding-top: 29px;
-    color: #333333;
     font-weight: 700;
     font-size: 20px;
+    color: #333333;
 }
 
 .street {
@@ -66,22 +80,22 @@ h3 {
 
 h2 {
     padding-top: 33px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
     font-weight: 300;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
     opacity: 0.8;
 }
 
 .fogging {
-    padding: 76px 0 63px;
     width: 100%;
+    padding: 76px 0 63px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 button {
+    width: 135px;
     margin-top: 33px;
     padding: 15px 0 14px;
-    width: 135px;
     font-weight: 600;
     font-size: 15px;
     border: 2px solid #ffffff;
@@ -89,17 +103,17 @@ button {
 }
 /*--footer--*/
 footer {
-    font-size: 0;
+    padding-top: 39px;
     background-color: #000000;
 }
 
-img {padding-top: 39px}
-
 h6 {
-    font-size: 12px;
     font-weight: 400;
+    font-size: 12px;
     padding: 15px;
     opacity: 0.5019607843137255;
 }
 
-.white {color: #ffffff;}
+.white {
+    color: #ffffff;
+}
